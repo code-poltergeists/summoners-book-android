@@ -10,12 +10,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" app:srcCompat="@drawable/bg" android:id="@+id/imageView"
             app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"
-            android:contentDescription="bgImage" android:scaleType="fitXY"/>
+            android:contentDescription="@string/bgimage" android:scaleType="fitXY"/>
     <ImageButton
             android:layout_width="100dp"
             android:layout_height="100dp" app:srcCompat="@drawable/settings" android:id="@+id/imageButton"
             android:scaleType="fitStart"
             android:background="@null" app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintBottom_toBottomOf="parent" android:contentDescription="settingsBtn"
+            app:layout_constraintBottom_toBottomOf="parent" android:contentDescription="@string/settings"
             android:onClick="showSettings"/>
 </android.support.constraint.ConstraintLayout>
