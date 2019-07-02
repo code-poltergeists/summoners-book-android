@@ -13,35 +13,32 @@
             android:id="@+id/radioGroup"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent">
-        <RadioButton
-                android:text="@string/sounds"
-                android:layout_width="270dp"
-                android:layout_height="70dp" android:id="@+id/radioButton3"
-                android:background="#FAF3EEEE" android:textSize="36sp"
-                android:padding="10sp"
-                app:layout_constraintTop_toTopOf="parent"
-                android:layout_marginTop="180dp" android:layout_marginStart="228dp"
-                app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="228dp"
-                android:gravity="center"/>
-        <RadioButton
-                android:text="@string/notifications"
-                android:layout_width="270dp"
-                android:layout_height="70dp" android:id="@+id/radioButton2"
-                android:background="#FAF3EEEE" android:textSize="36sp"
-                android:padding="10sp"
-                app:layout_constraintTop_toTopOf="parent"
-                android:layout_marginTop="296dp" android:layout_marginStart="228dp"
-                app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="228dp"
-                android:gravity="center"/>
-        <RadioButton
+        <CheckBox
                 android:text="@string/music"
                 android:layout_width="270dp"
-                android:layout_height="70dp" android:id="@+id/radioButton"
-                android:background="#FAF3EEEE" android:textSize="36sp"
-                android:padding="10sp"
-                app:layout_constraintTop_toTopOf="parent"
-                android:layout_marginTop="60dp" android:layout_marginStart="228dp"
-                app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="228dp"
-                android:gravity="center"/>
+                android:layout_height="70dp"
+                android:id="@+id/music" android:background="#FAF3EEEE"
+                android:textSize="36sp" android:textStyle="normal" android:gravity="center"
+                android:layout_marginTop="52dp" app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginStart="228dp" app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginLeft="228dp"/>
+        <CheckBox
+                android:text="@string/sounds"
+                android:layout_width="270dp"
+                android:layout_height="70dp"
+                android:id="@+id/sounds" android:background="#FAF3EEEE"
+                android:textSize="36sp" android:textStyle="normal" android:gravity="center"
+                android:layout_marginTop="184dp" app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginStart="228dp" app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginLeft="228dp"/>
+        <CheckBox
+                android:text="@string/notifications"
+                android:layout_width="270dp"
+                android:layout_height="70dp"
+                android:id="@+id/notifications" android:background="#FAF3EEEE"
+                android:textSize="36sp" android:textStyle="normal" android:gravity="center"
+                android:layout_marginTop="300dp" app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginStart="228dp" app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginLeft="228dp"/>
     </android.support.constraint.ConstraintLayout>
 </android.support.constraint.ConstraintLayout>
